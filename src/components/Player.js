@@ -1,8 +1,7 @@
 function Player(props) {
-    const hobbies = props.hobbies.map(hobby =>{
-        return <li>{hobby}</li>
-
-    })
+    const hobbies = props.hobbies.length 
+    ? props.hobbies.map(hobby =>{return <li>{hobby}</li>})
+    : <p>Non listed!!!</p>
 
     console.log(hobbies);
     return (

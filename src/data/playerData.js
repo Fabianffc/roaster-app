@@ -1,8 +1,8 @@
 const alexHobbies = ["dancing", "making YouTube videos", "fishing"];
 const joseHobbies = ["travel", "eating burgers", "skiiing"];
 const justinHobbies = ["hunting wabbits", "Sunshine Kids volunteer", "grilling"];
-const yordanHobbies = ["walk","write books","run"]
-const luisHobbies = ["make videos","watch movies"]
+const yordanHobbies = []
+const luisHobbies = []
 
 
 export const playerData = [
